@@ -16,8 +16,8 @@ export class TransactionService {
   }
  
  
-  async findAll(): Promise<Transaction[]> {
-    return this.transactionRepository.find();
+  async findAll(wallet:string): Promise<Transaction[]> {
+    return this.transactionRepository.find({where:{wallet}});
   }
 
   async findOne(Id: string): Promise<Transaction> {
