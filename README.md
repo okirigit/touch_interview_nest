@@ -39,6 +39,8 @@ Create a new database and leave it blank,  the system will autopopulate. Also Up
 # development
 $ npm run start
 
+
+App runs on port 3000. Update main.ts to change the port
 # watch mode
 $ npm run start:dev
 
@@ -59,15 +61,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
