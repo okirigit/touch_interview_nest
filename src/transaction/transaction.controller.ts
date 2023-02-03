@@ -7,8 +7,8 @@ export class TransactionController {
   constructor(private readonly transactionService: TransactionService) {}
 
   @Get()
-  async findAll(): Promise<Transaction[]> {
-    return this.transactionService.findAll();
+  async findAll(wallet:string): Promise<Transaction[]> {
+    return this.transactionService.findAll(wallet);
   }
 
   @Get(':id')
