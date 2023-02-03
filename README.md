@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) JS Backend interview application for wallet/ledger using SQL Server. 
 
 ## Installation
 
@@ -33,7 +33,8 @@ $ npm install
 ```
 
 ## Running the app
-
+# SQL Server settings
+Create a new database and leave it blank,  the system will autopopulate. Also Update the app.module.ts file with your database name and username
 ```bash
 # development
 $ npm run start

@@ -11,14 +11,11 @@ import { TransactionModule } from './transaction/transaction.module';
     TypeOrmModule.forRoot({
       type: 'mssql',
       host: 'localhost',
-      username: 'tracker',
+      username: 'tracker',//update with your sql server username and password below
       password: 'root',
       options: {
-        
         encrypt: false,
         enableArithAbort: true,
-      
-    
       },
       database: 'money_tracker',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
@@ -28,7 +25,6 @@ import { TransactionModule } from './transaction/transaction.module';
     UserModule,
     WalletModule,
     TransactionModule,
-   
   ],
 })
 export class AppModule {}
